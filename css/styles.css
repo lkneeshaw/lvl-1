@@ -10,16 +10,40 @@ h1 {
     color: #bc92e4;
     font-size: 6em;
     letter-spacing: .3em;
-    padding: 1em 0;
+    padding: 1.5em 0;
     text-align: center;
     text-transform: uppercase;
 }
 
 .main {
-    background: rgba(27, 23, 14, .8);
+    background: rgba(27, 23, 14, .7);
     margin: 0 auto;
-    padding: 4em 0;
     text-align: center;
     width: 80%;
     height: 100%;
+}
+
+.keys {
+    padding: 2em 0;
+}
+
+.keys .key {
+    background: none;
+    border: 3px solid #bc92e4;
+    border-radius: 10%;
+    color: #bc92e4;
+    height: 6em;
+    padding: 0;
+    width: 6em;
+}
+
+.keys:hover .key:hover {
+    background: none;
+    color: #bc92e4;
+}
+
+.keys .key kbd {
+    font-size: 2em;
+    padding: .4em;
+    display: block;
 }
